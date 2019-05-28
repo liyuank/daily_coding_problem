@@ -1,3 +1,5 @@
+# version 2 of convert half width to full width
+
 with open('20190523.txt', 'r') as file:
     data = file.read().replace(',', '，')
     data = data.replace('?', '？')
